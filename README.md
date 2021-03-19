@@ -11,5 +11,10 @@ Quản lí thư viện -Project 1
  -Cài đặt SQL sever 
       Bước 1: Truy cập vào link sau `https://www.microsoft.com/en-in/sql-server/sql-server-downloads` .Lựa chọn phiên bản muốn sử dụng 
       Bước 2: 
- ## 3.Cách sử dụng
- ## 4.Người đóng góp 
+ ## 3.Tính năng
+   -Quản lí được thông tin của các độc giả ,tọa mới,chỉnh sửa độc gia
+   -Quản lí thông tin các cuốn sách và tình trạng mượn sách
+   -Quản lí các thủ thư của thư viện 
+   -Chức năng thống kê tình trạng mượn sách theo tháng ,năm 
+ ## 4.Tác giả 
+   `qc-kgm` aka `Quoc Chung Tran`
