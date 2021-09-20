@@ -37,9 +37,9 @@ public class MainFrame extends JFrame {
 	public MainFrame() {
 		setLocation(new Point(100, 100));
 		setFont(new Font("Arial", Font.PLAIN, 14));
-		setTitle("Quan Li Thu Vien");
+		setTitle("Quan Li Thu Vien-20183489");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 1155, 751);
+		setBounds(20, 20, 1496, 751);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -49,7 +49,7 @@ public class MainFrame extends JFrame {
 		contentPane.add(PanelMenu);
 		PanelMenu.setLayout(null);
 		JPanel PanelView = new JPanel();
-		PanelView.setBounds(283, 0, 858, 714);
+		PanelView.setBounds(283, 0, 1200, 714);
 		contentPane.add(PanelView);
 		PanelView.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
 		

@@ -9,8 +9,11 @@ import java.awt.event.MouseListener;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
+import View.QLDocGiaView;
 import View.QLThuthuView;
+import View.QlMuonTraView;
 import View.QuanLiSachView;
+import View.ThongkeView;
 public class ChuyenManHinh {
 	private JPanel view;
 	private String scene;
@@ -63,7 +66,7 @@ public class ChuyenManHinh {
 				markColorLabel(2, a);
 //				a[1].getJpn().setBackground(new Color(100,100,100));
 //				a[1].getJlb().setBackground(new Color(100,100,100));
-				setView(new QLThuthuView());
+				setView(new QLDocGiaView());
 			}
 		});
 		a[3].getJpn().addMouseListener(new MouseAdapter() {
@@ -74,7 +77,7 @@ public class ChuyenManHinh {
 				markColorLabel(3, a);
 //				a[1].getJpn().setBackground(new Color(100,100,100));
 //				a[1].getJlb().setBackground(new Color(100,100,100));
-				setView(new QLThuthuView());
+				setView(new QlMuonTraView());
 			}
 		});
 		a[4].getJpn().addMouseListener(new MouseAdapter() {
@@ -85,7 +88,7 @@ public class ChuyenManHinh {
 				markColorLabel(4, a);
 //				a[1].getJpn().setBackground(new Color(100,100,100));
 //				a[1].getJlb().setBackground(new Color(100,100,100));
-				setView(new QLThuthuView());
+				setView(new ThongkeView());
 			}
 		});
 	}
